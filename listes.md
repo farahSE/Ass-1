@@ -230,6 +230,8 @@ def argmax(liste):
 
 print(argmax([1, 6, 2, 4]))
 ```
+````
+```
 l =[5,12,48,-2,0,-48,5,12]
 def posmax(l):
     m, k=l[0],0
@@ -392,6 +394,19 @@ def intersection(liste1, liste2):
 print(intersection([1, 6, 2, 4], [2, 7, 6]))
 ```
 ````
+```
+l1=[2,5,8,12,14,3]
+l2=[3,1,-1]
+
+
+def intersection(l1,l2):
+  l3=list()
+  for e in l1:
+    if e in l2:
+        l3.append(e)
+  return l3
+print(intersection(l1,l2))
+```
 
 ```{admonition} Exercice 4.3 : Union de listes
 :name: ex4.3
