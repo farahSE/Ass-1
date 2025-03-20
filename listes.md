@@ -230,7 +230,18 @@ def argmax(liste):
 
 print(argmax([1, 6, 2, 4]))
 ```
-````
+l =[5,12,48,-2,0,-48,5,12]
+def posmax(l):
+    m, k=l[0],0
+    for i, e in enumerate(l):
+        if e > m:
+            m =e
+            k=i
+    return m,k
+   
+   
+print("Max est ", posmax(l))
+```
 l =[5,12,48,-2,0,-48,5,12]
 def posmax(l):
     m, k=l[0],0
@@ -409,18 +420,7 @@ def union_sans_doublon(liste1, liste2):
 print(union_sans_doublon([1, 6, 2, 4], [2, 7, 6, 2]))
 
 ```
-l =[5,12,48,-2,0,-48,5,12]
-def posmax(l):
-    m, k=l[0],0
-    for i, e in enumerate(l):
-        if e > m:
-            m =e
-            k=i
-    return m,k
-   
-   
-print("Max est ", posmax(l))
-```
+````
 
 ## Copie de liste
 
